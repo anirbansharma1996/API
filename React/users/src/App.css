@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+.main{
+    border: 1px dashed teal;
+   text-align: center;
+   padding: 10px;
+}
